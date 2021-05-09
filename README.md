@@ -1,5 +1,5 @@
 # About
-A template for creating foundry modules using typescript. Project is setup to be hot reloaded.
+A template for creating foundry modules using typescript. Project files are setup to be hot reloaded.
 Information on hot module replacement: https://webpack.js.org/concepts/hot-module-replacement/
 
 # Setup:
