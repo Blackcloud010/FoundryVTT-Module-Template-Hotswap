@@ -3,6 +3,13 @@ A template for creating foundry modules using typescript. Project files are setu
 Information on hot module replacement: https://webpack.js.org/concepts/hot-module-replacement/
 
 # Setup:
+About Bundler:  
+This project uses webpack to bundle your files. What this means is that every script file in src/ will get 'bundled' into one output .js file in dist/.
+Likewise every static file (.html, .json, etc.) in static/ will get moved to dist.  
+Because of this you should NOT have your development working directory inside the foundryuser folder. Instead you should follow the instructions below
+for setting up symantic links between the dist/ folder and foundryuser.
+
+
 - Run npm install
 - Rename module.ts to your chosen module name.
 - Rename the references to module.ts in webpack.config.js file. (Line 26)
