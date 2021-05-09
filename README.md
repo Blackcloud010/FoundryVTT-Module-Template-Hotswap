@@ -14,10 +14,10 @@ for setting up symantic links between the dist/ folder and foundryuser.
 - Rename module.ts to your chosen module name.
 - Rename the references to module.ts in webpack.config.js file. (Line 26)
 - Fill in module.json with actual information.
-- Create a symantic link between the dist/ folder to a module folder in FoundryUser/Data/modules/[MODULE_NAME]
---	Instructions (for windows)
---	Open a command prompt and navigate to FoundryUser/Data/modules
---	Run: mklink /D MODULE_NAME [DEVELOPMENT_PATH]/dist
+- Create a symantic link between the dist/ folder to a module folder in FoundryUser/Data/modules/[MODULE_NAME]  
+--	Instructions (for windows) 
+--	Open a command prompt and navigate to FoundryUser/Data/modules   
+--	Run: mklink /D MODULE_NAME [DEVELOPMENT_PATH]/dist  
 
 A note on typescript, it is completely optional and if you do not wish to use then rename any .ts files and their references to .js.
 
@@ -33,5 +33,5 @@ This template is setup with automatic github release, developed by League of Fou
 their FoundryVtt-Module-Template. https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template 
 
 # Credits:
-Used webpack and setup files as reference: https://github.com/anvil-vtt/FateX 
-Used github workflow and template reference: https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template
+Used webpack and setup files as reference: https://github.com/anvil-vtt/FateX   
+Used github workflow and template reference: https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template   
