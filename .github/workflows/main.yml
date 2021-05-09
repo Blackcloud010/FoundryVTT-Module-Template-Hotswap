@@ -15,15 +15,15 @@ jobs:
       id: sub_manifest_link_version
       uses: microsoft/variable-substitution@v1
       with:
-        files: './static/module.json'
+        files: './dist/module.json'
       env:
         version: ${{github.event.release.tag_name}}
         url: https://github.com/${{github.repository}}
-        manifest: https://github.com/${{github.repository}}/releases/latest/download/static/module.json
+        manifest: https://github.com/${{github.repository}}/releases/latest/download/dist/module.json
         download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
 
     # Create a zip file with all files required by the module to add to the release
-    - run: zip -r ./module.zip dist/
+    - run: zip -r ./module.zip dist/*
 
     # Create a release for this specific version
     - name: Update Release with Files
@@ -35,6 +35,6 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './static/module.json, ./module.zip'
+        artifacts: './dist/module.json, ./module.zip'
         tag: ${{ github.event.release.tag_name }}
         body: ${{ github.event.release.body }}
