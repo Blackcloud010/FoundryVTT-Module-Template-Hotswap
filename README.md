@@ -26,5 +26,5 @@ This template is setup with automatic github release, developed by League of Fou
 their FoundryVtt-Module-Template. https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template 
 
 # Credits:
-Used webpack and setup files as reference: https://github.com/anvil-vtt/FateX 
-Used github workflow and template reference: https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template
+Used webpack and setup files as reference: https://github.com/anvil-vtt/FateX   
+Used github workflow and template reference: https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template   
