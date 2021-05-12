@@ -14,6 +14,7 @@ for setting up symantic links between the dist/ folder and foundryuser.
 - Rename module.ts to your chosen module name.
 - Rename the references to module.ts in webpack.config.js file. (Line 26)
 - Fill in module.json with actual information.
+- run: npm run build  
 - Create a symantic link between the dist/ folder to a module folder in FoundryUser/Data/modules/[MODULE_NAME]  
 --	Instructions (for windows) 
 --	Open a command prompt and navigate to FoundryUser/Data/modules   
