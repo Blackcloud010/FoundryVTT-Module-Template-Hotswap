@@ -33,6 +33,11 @@ CD/CI:
 This template is setup with automatic github release, developed by League of Foundry Developers in
 their FoundryVtt-Module-Template. https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template 
 
+# Troubleshooting:
+Hot Reload force refreshes my page!
+ - access foundry through localhost:8080 instead of localhost:30000
+ - You might have multiple modules running HMR. It is critical that if you are working on multiple modules that only a single module is using hot module reload at a time. 
+
 # Credits:
 Used webpack and setup files as reference: https://github.com/anvil-vtt/FateX   
 Used github workflow and template reference: https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template   

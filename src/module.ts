@@ -1,11 +1,11 @@
 import { TemplatePreloader } from "./module/helper/TemplatePreloader";
 
 Hooks.once("init", async () => {
-    
+    console.log("=============================HMR============================")
 });
 
 Hooks.once("ready", async () => {
-    console.log("Test");
+    
 });
 
 

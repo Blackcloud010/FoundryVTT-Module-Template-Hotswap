@@ -26,5 +26,5 @@
 
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   },
-  "exclude": [ "node_modules", "webpack.config.js" ]
+  "exclude": [ "node_modules", "webpack.config.js", "foundry.js", "dist" ]
 }
